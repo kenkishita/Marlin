@@ -112,7 +112,7 @@
 #elif MB(RAMPS_14_EEF) || MB(RAMPS_14_SF) || MB(RAMPS_13_EEF) || MB(RAMPS_13_SF)
   #define FAN_PIN           8
 #else
-  #define FAN_PIN           4 // IO pin. Buffer needed
+  #define FAN_PIN           5 // IO pin. Buffer needed
 #endif
 
 #define PS_ON_PIN          12
